@@ -1,0 +1,64 @@
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+    /* justify-content: space-around; */
+    align-content: center;
+    gap: 50px;
+    width: 100%;
+    padding-top: 10em;
+}
+
+.product {
+    width: 686px;
+    height: 364px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 74px;
+    line-height: 55px;
+    /* identical to box height, or 74% */
+
+    text-transform: capitalize;
+
+    /* Dark */
+
+    color: #000000;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 55px;
+    /* or 183% */
+
+    text-transform: capitalize;
+
+    /* Dark */
+
+    color: #000000;
+
+}
+
+.img-product {
+    position: relative;
+}
+
+.img-banner {
+    position: absolute;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    z-index: 99999;
+}
+
+.banner-border {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}

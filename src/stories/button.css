@@ -1,0 +1,14 @@
+button {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+}
+button:hover{
+    background-color: #FF6F61;
+}
+img,span{
+    vertical-align:middle;
+}
+
+
