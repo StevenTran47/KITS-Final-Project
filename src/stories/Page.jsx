@@ -2,7 +2,11 @@ import React from 'react';
 import { Header } from './Header';
 import { Banner } from './Banner'
 import { Brand } from './Brand'
+import { Category } from './Category';
 import './page.css';
+import { Product } from './Product';
+import { Widget } from './Widget';
+import { Seller } from './Seller';
 
 export const Page = () => {
   const [user, setUser] = React.useState();
@@ -14,6 +18,10 @@ export const Page = () => {
         <Banner />
       </div>
       <Brand />
+      <Category />
+      <Product />
+      <Widget />
+      <Seller />
     </div>
   );
 };
