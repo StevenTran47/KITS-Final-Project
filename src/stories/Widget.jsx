@@ -25,7 +25,7 @@ export const Widget = ({ }) => {
                 Angeles.</p>
             <div className="zara-btn">
                 <Button
-                    width=' 237px'
+                    width=' 245px'
                     height='72px'
                     padding='19px 26px'
                     gap='8px'

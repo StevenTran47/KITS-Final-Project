@@ -1,10 +1,9 @@
 import React from 'react';
-import '../stories/seller.css'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
-import { Button } from './Button';
+import '../components/Seller/seller.css'
 import carousel from './assets/carousel.svg'
+import { Button } from './Button';
 import { Card } from './Card';
+import Carousel from './Carousel'
 /**
  * Primary UI component for user interaction
  */
@@ -24,7 +23,7 @@ export const Seller = ({ }) => {
                 </div>
                 <div>
                     <Button
-                        width='98px'
+                        width='105px'
                         height=' 32px'
                         padding='5px 15px'
                         gap='4px'
@@ -44,33 +43,98 @@ export const Seller = ({ }) => {
                     />
                 </div>
             </div>
-            <div className="slicks">
-            <Carousel>
+            <div className="slider">
+            <Carousel
+                show={4}
+            >
                 <div>
                 <Card
-                     img = {carousel}
-                     title = 'Adicolor Classics Joggers'
-                     category = 'Dress'
-                     price = '$63.85'
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
                 />
                 </div>
                 <div>
                 <Card
-                     img = {carousel}
-                     title = 'Adicolor Classics Joggers'
-                     category = 'Dress'
-                     price = '$63.85'
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
                 />
                 </div>
                 <div>
                 <Card
-                     img = {carousel}
-                     title = 'Adicolor Classics Joggers'
-                     category = 'Dress'
-                     price = '$63.85'
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                </div>
+                <div>
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                </div>
+                <div>
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                </div>
+                <div>
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                </div>
+                <div>
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                </div>
+                <div>
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
                 />
                 </div>
             </Carousel>
+                {/* <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                />
+                <Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                /><Card
+                    img={carousel}
+                    title='Adicolor Classics Joggers'
+                    category='Dress'
+                    price='$63.85'
+                /> */}
             </div>
         </div>
     );

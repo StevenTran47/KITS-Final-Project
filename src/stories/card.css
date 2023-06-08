@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 312px;
 }
 
 .section-card {
@@ -64,4 +65,47 @@
     /* Dark */
 
     color: #000000;
+}
+
+.hidden {
+    width: 312px;
+    z-index: 9999999;
+    position: relative;
+}
+
+.buy {
+    position: absolute;
+    top: 355px;
+    background-color: #1E2832;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    width: 312px;
+    height: 60px;
+
+}
+
+.hidden:not(:hover) {
+    .buy {
+        display: none;
+    }
+}
+
+.icon-heart {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.icon-search {
+    position: absolute;
+    left: 55px;
+    top: 18px;
+}
+
+.card-btn {
+    position: absolute;
+    right: 0px;
+    top: 8px;
 }

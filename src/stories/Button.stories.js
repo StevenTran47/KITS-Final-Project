@@ -1,6 +1,7 @@
 import { Button } from './Button';
 import iconShop from './assets/icon-shop.svg'
 import iconFilter from './assets/icon-filter.svg'
+import iconArrow from './assets/arrow.svg'
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
   title: 'Example/Button',
@@ -61,7 +62,7 @@ export const Filter = {
 
 export const SeeCollection = {
   args: {
-    width: ' 237px',
+    width: ' 245px',
     height: '72px',
     padding: '19px 26px',
     gap: '8px',
@@ -83,13 +84,35 @@ export const SeeCollection = {
 
 export const ShowAll = {
   args: {
-    width: '98px',
+    width: '105px',
     height: ' 32px',
     padding: '5px 15px',
     gap: '4px',
     color: 'white',
     backgroundColor: ' #1E2832',
     label: 'Show All',
+
+    //fonts
+    fontFamily: 'Open Sans',
+    fontStyle: 'normal',
+    fontWeight: 400,
+    fontSize: '16px',
+    lineHeight: '22px',
+    /* identical to box height */
+
+    textTransform: 'capitalize',
+  },
+};
+export const ScrollToTop = {
+  args: {
+    width: "150px",
+    height: "32px",
+    padding: ' 5px 15px',
+    gap: '4px',
+    color: 'white',
+    backgroundColor: '#1E2832',
+    label: 'Scroll To Top',
+    icon2: iconArrow,
 
     //fonts
     fontFamily: 'Open Sans',

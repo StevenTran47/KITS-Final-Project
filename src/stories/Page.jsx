@@ -7,7 +7,8 @@ import './page.css';
 import { Product } from './Product';
 import { Widget } from './Widget';
 import { Seller } from './Seller';
-
+import { Instagram } from './Instagram';
+import { Footer } from './Footer';
 export const Page = () => {
   const [user, setUser] = React.useState();
 
@@ -22,6 +23,8 @@ export const Page = () => {
       <Product />
       <Widget />
       <Seller />
+      <Instagram />
+      <Footer />
     </div>
   );
 };

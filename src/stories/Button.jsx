@@ -12,6 +12,7 @@ export const Button = ({
   backgroundColor,
   label,
   icon,
+  icon2,
   position,
   top,
   fontFamily,
@@ -51,6 +52,11 @@ export const Button = ({
         textTransform: textTransform,
       }}>
         {label}</span>
+        <img style={{
+        position: position,
+        top: top
+      }}
+        src={icon2} />
     </button>
   );
 };
