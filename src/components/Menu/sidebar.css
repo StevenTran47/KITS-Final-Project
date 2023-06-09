@@ -1,0 +1,14 @@
+.admin-side-bar {
+    width: 315px;
+    height: 1117px;
+    background: #FFFFFF;
+}
+.items-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.ant-menu-item{
+    padding: 30px;
+}

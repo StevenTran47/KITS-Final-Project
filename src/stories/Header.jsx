@@ -10,7 +10,7 @@ export const Header = ({
   ...props 
 }) => (
   <header>
-    <div className='icon-search'><img src={iconSearch} alt="icon" /></div>
+    <div className='icon-search-top'><img src={iconSearch} alt="icon" /></div>
     <div className='brand'>Lisa Store</div>
     <div className='header-user'>
       <div className='header-icon'><a href="#"><img src={iconAccount} alt="icon" /> Account</a></div>

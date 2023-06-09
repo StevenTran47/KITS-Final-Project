@@ -16,6 +16,7 @@ export const Widget = ({ }) => {
             backgroundSize: 'cover ',
             backgroundRepeat: 'no-repeat'
         }}>
+            
             {/* <img className='background' src={background} alt="background" /> */}
             <img className='zara1' src={zara1} alt="zara1" />
             <img className='zara2' src={zara2} alt="zara2" />
